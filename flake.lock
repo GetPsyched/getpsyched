@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "nextjs-env": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "narHash": "sha256-pRmwPhZ+6PcJvrCuaV/L+pduiDTXllc3rCrZfAOzEvk=",
+        "rev": "d018dcaf1ac71234f2bec1aa8ac1fead06f15bee",
+        "revCount": 37,
+        "type": "tarball",
+        "url": "https://api.flakehub.com/f/pinned/GetPsyched/nextjs-env/0.3.0/018abcb8-756a-7ff6-a810-85ed3f637d78/source.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://flakehub.com/f/GetPsyched/nextjs-env/0.x.x.tar.gz"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1695644571,
+        "narHash": "sha256-asS9dCCdlt1lPq0DLwkVBbVoEKuEuz+Zi3DG7pR/RxA=",
+        "path": "/nix/store/i6hq63805y784dml4j8pgkrz3lryxzld-source",
+        "rev": "6500b4580c2a1f3d0f980d32d285739d8e156d92",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nextjs-env": "nextjs-env",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
