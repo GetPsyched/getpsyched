@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply bg-daw-palette-600;
+    @apply font-poppins;
+    @apply text-daw-palette-300;
+    @apply text-xs sm:text-sm md:text-base;
+
+    min-height: 100vh;
+  }
+}

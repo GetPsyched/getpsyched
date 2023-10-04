@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-daw-emerald-600">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
