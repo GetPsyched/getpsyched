@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "narHash": "sha256-pRmwPhZ+6PcJvrCuaV/L+pduiDTXllc3rCrZfAOzEvk=",
-        "rev": "d018dcaf1ac71234f2bec1aa8ac1fead06f15bee",
-        "revCount": 37,
+        "narHash": "sha256-i90nLhaJmCj5bmiP+EhzdVrTFLjzOgUVkGc+ZHbnfdM=",
+        "rev": "ff462d5b27eaa17ce5e0807ac2b52e870483ec5f",
+        "revCount": 38,
         "type": "tarball",
-        "url": "https://api.flakehub.com/f/pinned/GetPsyched/nextjs-env/0.3.0/018abcb8-756a-7ff6-a810-85ed3f637d78/source.tar.gz"
+        "url": "https://api.flakehub.com/f/pinned/GetPsyched/nextjs-env/0.4.0/018af95d-64b1-7041-88b9-7e690efd6197/source.tar.gz"
       },
       "original": {
         "type": "tarball",
