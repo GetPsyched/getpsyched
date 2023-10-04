@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-daw-emerald-600">{children}</body>
     </html>
   );
 }
@@ -31,4 +31,13 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: { canonical: url },
+  icons: {
+    icon: [
+      { url: 'http://localhost:3000/favicon.png', type: 'image/png' },
+      {
+        url: 'http://localhost:3000/favicon.ico',
+        type: 'image/vnd.microsoft.icon',
+      },
+    ],
+  },
 };
